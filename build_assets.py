@@ -4,7 +4,6 @@ from xml.sax.saxutils import escape as esc
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
 MONO = 'ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace'
 SANS = '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif'
-STATS = os.path.join(os.path.dirname(OUT), "stats")
 PAL = {
     "dark":  dict(bg="#0d1117", panel="#161b22", bar="#1c2128", border="#30363d", fg="#e6edf3", muted="#8b949e", acc="#3fb950", tag="#d29922"),
     "light": dict(bg="#ffffff", panel="#f6f8fa", bar="#eaeef2", border="#d0d7de", fg="#1f2328", muted="#59636e", acc="#1a7f37", tag="#9a6700"),
@@ -94,15 +93,7 @@ def stack(p):
         b += chips
     return svg(W, y, p, b)
 
-def placeholder(w, title, p):
-    return svg(w, 195, p, T(25, 38, title, 18, p["acc"], weight="bold") + T(25, 70, "updates after the first workflow run", 13, p["muted"]))
-
 def main():
-    os.makedirs(STATS, exist_ok=True)
-    for th, p in PAL.items():
-        for n, w, t in (("stats", 467, "Activity"), ("langs", 300, "Languages")):
-            with open(os.path.join(STATS, f"{n}-{th}.svg"), "w", encoding="utf-8") as f:
-                f.write(placeholder(w, t, p))
     for th, p in PAL.items():
         files = {"banner": banner(p)}
         files.update({f"card-{k}": card(k, p) for k in CARDS})

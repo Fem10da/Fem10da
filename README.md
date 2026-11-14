@@ -3,7 +3,7 @@
 <img src="assets/banner-light.svg" alt="Femida — Vadim, Head of AI, Kyiv" width="100%">
 </picture>
 
-Head of AI at a Ukrainian retail company, based in Kyiv. I started and lead the company's AI direction. Before that I worked there as a sysadmin/DevOps engineer from 2024, on Microsoft-based infrastructure for 400+ users across 70 locations. Before IT I was a game designer (2020–2024).
+Head of AI at a Ukrainian retail company, based in Kyiv. I started and lead the company's AI direction. Starting in 2024, I worked there as a sysadmin/DevOps engineer on Microsoft-based infrastructure for 400+ users across 70 locations, before moving into AI leadership. Before IT I was a game designer (2020–2024).
 
 I build practical tools where AI meets infrastructure: helpdesk bots, automation pipelines and knowledge bases that AI assistants can use.
 
@@ -65,16 +65,10 @@ Also built, private for now: password-manager-bot (Telegram password generator a
 
 ### Activity
 
-<p>
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="stats/stats-dark.svg">
-<img src="stats/stats-light.svg" alt="GitHub activity: commits, pull requests, reviews" height="190">
+<source media="(prefers-color-scheme: dark)" srcset="stats/activity-dark.svg">
+<img src="stats/activity-light.svg" alt="GitHub activity: commits, pull requests, merged pull requests and most used languages" width="100%">
 </picture>
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="stats/langs-dark.svg">
-<img src="stats/langs-light.svg" alt="Most used languages" height="190">
-</picture>
-</p>
 
 ### Contact
 
