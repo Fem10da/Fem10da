@@ -76,8 +76,6 @@ Also built, private for now: password-manager-bot (Telegram password generator a
 </picture>
 </p>
 
-<sub>Updated daily by a GitHub Action in this repo; includes private repositories.</sub>
-
 ### Contact
 
 - Telegram: [@f3m1da](https://t.me/f3m1da)
