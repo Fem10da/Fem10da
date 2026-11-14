@@ -10,7 +10,7 @@ PAL = {
 }
 
 CARDS = {
-    "glpi": ("glpi-helpdesk-bot", "production", "Telegram bot in front of a GLPI helpdesk. Users write naturally, the bot structures the request and creates the right ticket.", ["Node.js", "Telegraf", "GLPI API", "SQLite"]),
+    "glpi": ("glpi-helpdesk-bot", "production", "Telegram bot in front of a GLPI helpdesk. Users write naturally, the bot structures the request and creates a GLPI ticket.", ["Node.js", "Telegraf", "GLPI API", "SQLite"]),
     "kg": ("knowledge-graph-mcp", "solo pilot", "Corporate knowledge base exposed to AI assistants through an MCP server, with vector search over embeddings.", ["MCP", "Supabase", "embeddings"]),
     "autoposting": ("autoposting", "MVP", "Multi-tenant short-video autoposting to YouTube Shorts, Instagram Reels and TikTok, driven from Telegram.", ["n8n", "Postiz", "Telegram"]),
     "bunker": ("bunker-game", "beta", 'My take on the "Bunker" party game: a Telegram Mini App with a shared public screen.', ["TypeScript", "React", "Fastify", "Workers", "PostgreSQL"]),

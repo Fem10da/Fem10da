@@ -63,6 +63,17 @@ Also built, private for now: password-manager-bot (Telegram password generator a
 <img src="assets/stack-light.svg" alt="AI: LLM APIs (Claude, OpenAI, Gemini), RAG, embeddings, vector search, knowledge graphs (Neo4j), MCP servers, AI agents, voice agents, local LLMs, prompt-injection testing, n8n. Languages: TypeScript, JavaScript, Python, Go, Rust, PHP, C. Backend &amp; web: Node.js, Fastify, REST APIs, React, Vue, Vite, Cloudflare Workers, Telegram bots &amp; Mini Apps, Discord bots. Data: PostgreSQL, Neo4j, Supabase (pgvector), MySQL, SQLite, MongoDB. Infrastructure: Linux/Debian, Docker Compose, nginx, PM2, MikroTik/RouterOS, WireGuard, DNS/DoH, firewalling, Active Directory, Exchange, GLPI." width="100%">
 </picture>
 
+<details>
+<summary>Stack as text</summary>
+
+- **AI:** LLM APIs (Claude, OpenAI, Gemini), RAG, embeddings, vector search, knowledge graphs (Neo4j), MCP servers, AI agents, voice agents, local LLMs, prompt-injection testing, n8n
+- **Languages:** TypeScript, JavaScript, Python, Go, Rust, PHP, C
+- **Backend & web:** Node.js, Fastify, REST APIs, React, Vue, Vite, Cloudflare Workers, Telegram bots & Mini Apps, Discord bots
+- **Data:** PostgreSQL, Neo4j, Supabase (pgvector), MySQL, SQLite, MongoDB
+- **Infrastructure:** Linux/Debian, Docker Compose, nginx, PM2, MikroTik/RouterOS, WireGuard, DNS/DoH, firewalling, Active Directory, Exchange, GLPI
+
+</details>
+
 ### Activity
 
 <picture>
