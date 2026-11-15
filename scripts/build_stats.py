@@ -97,7 +97,7 @@ def main():
         try:
             data = fetch(token, os.environ.get("GH_LOGIN", "Fem10da"))
         except Exception as e:
-            sys.exit(f"Stats fetch failed: {type(e).__name__}")
+            sys.exit(f"Stats fetch failed: {type(e).__name__} {getattr(e, 'code', '')}")
     os.makedirs(os.path.join(ROOT, "stats"), exist_ok=True)
     for th, p in PAL.items():
         with open(os.path.join(ROOT, "stats", f"activity-{th}.svg"), "w", encoding="utf-8") as f:
